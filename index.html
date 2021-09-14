@@ -2558,7 +2558,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     window.setTimeout(function() {
       var element = document.getElementById('call-me-baby');
       element.style.right = '20px';
+
+
+      window.dataLayer = window.dataLayer || [];
+      window.dataLayer.push({
+        event: "popup aleatório apareceu",
+        apareceuem: new Date().getTime()
+      })
     }, Math.random() * 12000 + 5000);
+    
   </script>
 
 </body>
